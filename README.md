@@ -9,3 +9,6 @@
 3. 複製parse_url.js的code 在console下貼上
 4. 儲存urls.txt到專案下
 5. 執行download.py
+
+# Others
+xml_to_kitti 可以將labelimage 標籤的xml轉成kitti的格式
