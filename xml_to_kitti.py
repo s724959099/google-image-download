@@ -100,7 +100,7 @@ def write_to_file(arr_bbox):
 
 if __name__ == '__main__':
 
-    p = pathlib.Path("images")
+    p = pathlib.Path("resize")
     for item in list(p.glob("*.xml")):
         d = xml_to_dict(str(item))
         txt_name = str(item).replace(".xml", ".txt")
